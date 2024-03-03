@@ -171,6 +171,7 @@ return [
 
 
         MongoDB\Laravel\MongoDBServiceProvider::class,
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class
     ])->toArray(),
 
     /*
